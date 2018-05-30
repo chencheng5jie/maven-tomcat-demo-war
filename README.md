@@ -8,8 +8,8 @@ Build & Deploy : mvn tomcat7:deploy -Dtomcat.username=admin -Dtomcat.password=ad
 
 #tomcat-users.xml - Add below in tomcat container
 
-<role rolename="manager"/>
+`<role rolename="manager"/>
 <role rolename="tomcat"/>
 <role rolename="manager-script"/>
 <role rolename="manager-gui"/>
-<user username="admin" password="admin" roles="manager,manager-gui,manager-script,tomcat"/>
+<user username="admin" password="admin" roles="manager,manager-gui,manager-script,tomcat"/>`
