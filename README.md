@@ -1,6 +1,6 @@
 Tomcat - Webapplication with maven pluggin to create WAR file .
 
-Build & Deploy : mvn tomcat7:deploy -Dtomcat.username=admin -Dtomcat.password=admin
+Build & Deploy : mvn tomcat7:redeploy -Dtomcat.username=admin -Dtomcat.password=admin
 
 
 
